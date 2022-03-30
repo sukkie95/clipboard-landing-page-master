@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-image: url('images/bg-header-desktop.png'),
+
+    linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    padding: 80px;
+}
+
+
+.welcome{
+    text-align: center;
+}
+
+.welcome h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+.welcome p{
+    color: rgb(179, 173, 166);
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+.download-buttons{
+    padding: 20px;
+}
+
+.download-buttons button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.first-btn{
+    background-color: hsl(171, 66%, 44%);
+}
+.second-btn{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsl(233deg 66% 60% / 46%);
+}
+
+.keep-track{
+    text-align: center;
+    padding: 60px;
+    }
+
+    .keep-track p{
+        margin-top: 20px;
+        color: rgb(179, 173, 166);
+        font-size: 18px;
+        
+    }
+
+    .desktop{
+        display: flex;
+        width: 100%;
+    }
+
+    .desktop-img{
+        width: 50%;
+    }
+
+    .desktop p{
+        color: rgb(179, 173, 166);
+        font-size: 18px;
+        width: 300px;
+       
+    }
+    .desktop-img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .desktop-info{
+        margin-left: 10%;
+    }
+
+    .desktop-info div{
+        padding: 12px;
+    }
+
+    .desktop-info h2{
+        margin-bottom: 10px;
+    }
+
+    .access-clipboard{
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .access-clipboard img{
+        width: 70%;
+    }
+    .access-clipboard p{
+        color: rgb(179, 173, 166);
+        font-size: 18px;
+        padding: 10px;
+        line-height: 1.6em;
+
+    }
+
+    .clipboard-text{
+        margin-bottom: 30px;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .keep-track p{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .instructions{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .instructions p{
+        font-size: 18px;
+        color: rgb(179, 173, 166);
+        max-width: 340px;
+
+
+    }
+
+    .inst-header{
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 30px;
+
+    }
+
+    .inst-header p{
+        margin-top: 40px;
+        line-height: 2px;
+        font-size: 18px;
+        color: rgb(179, 173, 166);
+    }
+
+    .logos{
+        gap: 5%;
+        display: flex;
+        width: 90%;
+       
+        margin: 0 auto;
+        justify-content: center;
+        padding: 0px;
+       margin-top:100px;
+       margin-bottom: 100px;
+       
+    }
+
+    .logos img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer-nav{
+        display: flex;
+        width: 100%;
+        background-color: rgb(243, 242, 240);
+        justify-content: center;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+
+    .footer-nav h2{
+        color: rgb(128, 128, 105);
+    }
+    .footer-nav div{
+        width: 20%;
+        text-align: center;
+    }
+
+    .bi{
+        font-size: 30px;
+        color: rgb(146, 189, 214);
+    }
+
+    .footer-download{
+        text-align: center;
+    }
+
+    .footer-download button{
+        padding: 15px 30px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        cursor: pointer;
+        }
+
+        .footer-download p{
+            font-size: 16px;
+            color: rgb(179, 173, 166);
+            margin-top: 40px;
+            margin-bottom: 40px;
+            line-height: 25px;
+        }
+
+        .footer-download {
+            padding: 100px;
+        }
+
+        @media(max-width: 768px){
+            .keep-track p{
+                max-width: 90%;
+            }
+            .desktop{
+                display: block;
+            }
+
+            .desktop-img{
+                width: 100%;
+                text-align: center;
+            }
+
+            .desktop-img img{
+                width: 50%;
+            }
+
+            .desktop-info{
+               width: 50%;
+               margin: 0 auto;
+               text-align: center;
+            }
+            .instructions{
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .instructions div{
+                width: 100%;
+                
+                
+            }
+            .instructions h1{
+                text-align: center;
+                width: 60%;
+                margin: 0 auto;
+            }
+            .instructions p{
+                font-size: 18px;
+                color: rgb(179, 173, 166);
+                max-width: none;
+                text-align: center;
+                width: 60%;
+                margin: 0 auto;
+                margin-bottom: 30px;
+        
+        
+            }
+        }
+
+        @media(max-width: 500px){
+
+            .download-buttons button{
+                width: 100%;
+                margin-bottom: 10px;
+
+            }
+            .footer-download-buttons button{
+                width: 100%;
+                margin-top: 10px;
+            }
+            .logos{
+                display: block;
+                text-align: center;
+            }
+
+            .logos img{
+                width: 30%;
+                height: auto;
+                padding: 10px;
+            }
+            
+           .footer-nav{
+            display: block;
+            
+           }
+           .footer-nav div{
+               margin: 0 auto;
+               text-align: center;
+               width: 50%;
+               
+           }
+
+           .footer-logo img{
+               margin-bottom: 30px;
+           }
+
+           .icons .bi{
+               padding: 10px;
+           }
+
+           .icons{
+               margin-bottom:30px;
+           }
+           .instructions h1{
+            text-align: center;
+            width: 60%;
+            margin: 0 auto;
+        }
+        .instructions p{
+            font-size: 18px;
+            color: rgb(179, 173, 166);
+            max-width: none;
+            text-align: center;
+            width: 60%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+    
+    
+        }
+        }
